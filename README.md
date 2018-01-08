@@ -9,12 +9,12 @@ More details about the dataset and its contents can be found at http://dbis-nowp
 Python 3.5  
 
 ## Dependencies  
-*numpy    
-*sklearn    
-*pyfm  
-*pandas  
-*math  
-*time  
+-numpy    
+-sklearn    
+-pyfm  
+-pandas  
+-math  
+-time  
 
 ## Code
 
