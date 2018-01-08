@@ -21,9 +21,9 @@ time
 ## Usage
 
 How to run  
-'''  
+```
 python3.5 fm.py
-'''  
+```
 
 
 
