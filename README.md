@@ -8,9 +8,9 @@ More details about the dataset and its contents can be found at http://dbis-nowp
 ## Environment
 Python 3.5  
 
-## Dependencies
-numpy  
-sklearn  
+## Dependencies  
+numpy    
+sklearn    
 pyfm  
 pandas  
 math  
@@ -20,10 +20,10 @@ time
 
 ## Usage
 
-How to run
-'''
+How to run  
+'''  
 python3.5 fm.py
-'''
+'''  
 
 
 
