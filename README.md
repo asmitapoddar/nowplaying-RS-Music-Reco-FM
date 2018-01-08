@@ -1,22 +1,29 @@
-#nowplaying-RS: A Benchmark Dataset for Context Aware Music Recommendation
+# #nowplaying-RS: A Benchmark Dataset for Context Aware Music Recommendation
 
 Here, you can find the codes for implementation of the experiments conducted on the #nowplaying-RS dataset.   
 We have used Factorization Machines[1] to perform the music recommendation experiments.  
 
 More details about the dataset and its contents can be found at http://dbis-nowplaying.uibk.ac.at/  
 
-Dependencies
-numpy  
+## Environment
+Python 3.5  
+
+## Dependencies
+numpy  
 sklearn  
 pyfm  
 pandas  
 math  
 time  
 
-Code
+## Code
 
-Usage
+## Usage
 
+How to run
+'''
+python3.5 fm.py
+'''
 
 
 
