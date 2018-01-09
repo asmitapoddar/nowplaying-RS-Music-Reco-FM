@@ -26,23 +26,24 @@ The following scripts, stored in this repository, have been developed for the da
 
 ## Usage
 
-######1. Downloading.
+###### 1. Downloading the dataset.
 You can download the datasets and uncompress the archives using the following commands:
 ```
 wget ##insert link
 wget ##insert link
+unzip ##train.zip
+unzip ##test.zip
 ```
-######2. Cloning the repoitory.
+###### 2. Cloning the repoitory.
 ```
-git clone https://github.com/asmitapoddar/nowplaying-RS-Music-Recommendation-FM.git
-cd nowplaying-RS-Music-Recommendation-FM
+git clone https://github.com/asmitapoddar/nowplaying-RS-Music-Reco-FM.git
+cd nowplaying-RS-Music-Reco-FM
 ```
-######3. Installing the dependencies as have been mentioned above.   
-######4. Running the code.
+###### 3. Installing the dependencies as have been mentioned above.   
+###### 4. Running the code.
 ```
 python3.5 main.py
 ```
 Please make sure that the code files and the downloaded datasets are in the same folder, and the path to the datasets have been set correctly.
-
 
 [1]Steffen Rendle. 2012. Factorization Machines with libFM. ACM Trans. Intell. Syst. Technol. 3, 3, Article 57 (May 2012), 22 pages. DOI=http://dx.doi.org/10.1145/2168752.2168771
