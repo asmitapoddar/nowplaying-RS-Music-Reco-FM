@@ -37,7 +37,7 @@ wget ##insert link
 git clone https://github.com/asmitapoddar/nowplaying-RS-Music-Recommendation-FM.git
 cd nowplaying-RS-Music-Recommendation-FM
 ```
-#3. Installing the dependencies as have been mentioned above.
+#3. Installing the dependencies as have been mentioned above.   
 #4. Running the code.
 ```
 python3.5 main.py
