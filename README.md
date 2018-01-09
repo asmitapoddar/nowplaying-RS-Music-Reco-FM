@@ -20,19 +20,25 @@ Python 3.5
 The following scripts, stored in this repository, have been developed for the dataset.
 1. [main.py](https://github.com/asmitapoddar/nowplaying-RS-Music-Recommendation-FM/blob/master/main.py): The main file from which the other scriptsare called.  
 2. [group.py](https://github.com/asmitapoddar/nowplaying-RS-Music-Recommendation-FM/blob/master/group.py): The tet set is ordered according to the user_id. However, this is optional as the test set provided has already been ordered according to user_id. 
-3. [load.py](https://github.com/asmitapoddar/nowplaying-RS-Music-Recommendation-FM/blob/master/load.py): Shows how to load the dataset. You can enter the attributes with which you want to train the Factorization Machine here. (In this file, the attributes user_id + track_id + tempo have been used to train the FM.)  
+3. [load.py](https://github.com/asmitapoddar/nowplaying-RS-Music-Recommendation-FM/blob/master/load.py): Shows how to load the dataset. You can enter the attributes with which you want to train the Factorization Machine here. (In this file, the attributes user_id + track_id + tempo have been used to train the FM).  
 4. [runFM.py](https://github.com/asmitapoddar/nowplaying-RS-Music-Recommendation-FM/blob/master/runFM.py): Training of the Factorization Machine takes place and prediction.
 5. [calcMRR.py](https://github.com/asmitapoddar/nowplaying-RS-Music-Recommendation-FM/blob/master/calcMRR.py): Calculation of Mean Reciprocal Rank (MRR).
 
 ## Usage
 
-#1. Downloading
+#1. Downloading.
 You can download the datasets and uncompress the archives using the following commands:
 ```
 wget ##insert link
 wget ##insert link
 ```
-#2. Running the code
+#2. Cloning the repoitory.
+```
+git clone https://github.com/asmitapoddar/nowplaying-RS-Music-Recommendation-FM.git
+cd nowplaying-RS-Music-Recommendation-FM
+```
+#3. Installing the dependencies as have been mentioned above.
+#4. Running the code.
 ```
 python3.5 main.py
 ```
