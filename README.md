@@ -26,19 +26,19 @@ The following scripts, stored in this repository, have been developed for the da
 
 ## Usage
 
-#1. Downloading.
+######1. Downloading.
 You can download the datasets and uncompress the archives using the following commands:
 ```
 wget ##insert link
 wget ##insert link
 ```
-#2. Cloning the repoitory.
+######2. Cloning the repoitory.
 ```
 git clone https://github.com/asmitapoddar/nowplaying-RS-Music-Recommendation-FM.git
 cd nowplaying-RS-Music-Recommendation-FM
 ```
-#3. Installing the dependencies as have been mentioned above.   
-#4. Running the code.
+######3. Installing the dependencies as have been mentioned above.   
+######4. Running the code.
 ```
 python3.5 main.py
 ```
