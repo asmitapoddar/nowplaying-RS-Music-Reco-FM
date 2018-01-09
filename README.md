@@ -46,4 +46,3 @@ Please make sure that the code files and the downloaded datasets are in the same
 
 
 [1]Steffen Rendle. 2012. Factorization Machines with libFM. ACM Trans. Intell. Syst. Technol. 3, 3, Article 57 (May 2012), 22 pages. DOI=http://dx.doi.org/10.1145/2168752.2168771
-
