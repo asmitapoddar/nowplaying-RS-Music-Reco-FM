@@ -53,7 +53,14 @@ unzip nowplayingrs_train_test.zip
 git clone https://github.com/asmitapoddar/nowplaying-RS-Music-Reco-FM.git
 cd nowplaying-RS-Music-Reco-FM
 ```
-###### 3. Installing the dependencies as have been mentioned above.  
+###### 3. Installing the dependencies as have been mentioned above. 
+###### 4. Creating the final train-test splits which can be used as input to the FM.  
+For example, to make next-song recommendation, create the final training and test sets using the follwing commands:
+```
+Rscript train_seq.py   
+Rscript test_seq.py   
+```
+The required training and test sets would be created, which can be input to the FM by specifying the file names in [main.py](https://github.com/asmitapoddar/nowplaying-RS-Music-Recommendation-FM/blob/master/main.py)
 
 ###### 4. Running the code.
 ```
