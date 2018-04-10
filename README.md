@@ -29,17 +29,17 @@ The following scripts, stored in this repository, have been developed for the da
 ###### 1. Downloading the dataset.
 You can download the datasets and uncompress the archives using the following commands:
 ```
-wget ##insert link
-wget ##insert link
-unzip ##train.zip
-unzip ##test.zip
+wget http://dbis-nowplaying.uibk.ac.at/wp-content/uploads/nowplayingrs.zip
+wget http://dbis-nowplaying.uibk.ac.at/wp-content/uploads/nowplayingrs_train_test.zip
+unzip nowplayingrs_train_test.zip
 ```
 ###### 2. Cloning the repoitory.
 ```
 git clone https://github.com/asmitapoddar/nowplaying-RS-Music-Reco-FM.git
 cd nowplaying-RS-Music-Reco-FM
 ```
-###### 3. Installing the dependencies as have been mentioned above.   
+###### 3. Installing the dependencies as have been mentioned above.  
+
 ###### 4. Running the code.
 ```
 python3.5 main.py
