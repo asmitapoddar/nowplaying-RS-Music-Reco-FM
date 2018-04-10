@@ -27,7 +27,9 @@ R 3.4.3
 - Stack
 
 ## Creating Final Training and Test Sets
-1. [Seq](https://github.com/asmitapoddar/nowplaying-RS-Music-Recommendation-FM/blob/master/main.py): The main file from which the other scripts are called.
+1. [Context_POP_RND](https://github.com/asmitapoddar/nowplaying-RS-Music-Reco-FM/tree/master/Context_POP_RND): This folder contains the scripts [train_POP_RND.r](https://github.com/asmitapoddar/nowplaying-RS-Music-Reco-FM/tree/master/Context_POP_RND/train_POP_RND.r) and [test_POP_RND.r](https://github.com/asmitapoddar/nowplaying-RS-Music-Reco-FM/tree/master/Context_POP_RND/test_POP_RND.r) to create the traning and test set splits respectively for context-aware recommendation in the POP_RND setting.   
+2. [Context_POP_USER](https://github.com/asmitapoddar/nowplaying-RS-Music-Reco-FM/tree/master/Context_POP_USER): This folder contains the scripts [train_POP_USER.r](https://github.com/asmitapoddar/nowplaying-RS-Music-Reco-FM/tree/master/Context_POP_USER/train_Context_POP_USER.r) and [test_POP_USER.r](https://github.com/asmitapoddar/nowplaying-RS-Music-Reco-FM/tree/master/Context_POP_USER/test_Context_POP_USER.r) to create the traning and test set splits respectively for context-aware  recommendation in the POP_USER setting.  
+3. [Sequence](https://github.com/asmitapoddar/nowplaying-RS-Music-Reco-FM/tree/master/Sequence): This folder contains the scripts [train_seq.r](https://github.com/asmitapoddar/nowplaying-RS-Music-Reco-FM/tree/master/Sequence/train_seq.r) and [test_seq.r](https://github.com/asmitapoddar/nowplaying-RS-Music-Reco-FM/tree/master/Sequence/test_seq.r) to create the traning and test set splits respectively for context-aware next-song recommendation.
 
 ## Code
 The following scripts, stored in this repository, have been developed for the dataset.
