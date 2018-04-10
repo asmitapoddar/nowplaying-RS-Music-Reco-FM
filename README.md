@@ -11,7 +11,7 @@ Since the #nowplaying-RS is an implicit dataset, the train-test splits provided 
 
 ## Environment
 Python 3.5
-R 3.4.3
+R 3.4.3  
 
 ## Dependencies  
 - numpy    
@@ -20,7 +20,7 @@ R 3.4.3
 - pandas  
 - math  
 - time   
-
+    
 - plyr  
 - dplyr 
 - data.table  
@@ -47,7 +47,7 @@ wget http://dbis-nowplaying.uibk.ac.at/wp-content/uploads/nowplayingrs_train_tes
 unzip nowplayingrs_train_test.zip
 ```
 ###### 2. Cloning the repoitory.
-``
+```
 git clone https://github.com/asmitapoddar/nowplaying-RS-Music-Reco-FM.git
 cd nowplaying-RS-Music-Reco-FM
 ```
