@@ -14,14 +14,14 @@ Python 3.5
 R 3.4.3  
 
 ## Dependencies  
-### Python  
+#### Python  
 - numpy    
 - sklearn    
 - pyfm  
 - pandas  
 - math  
 - time   
-### R    
+#### R    
 - plyr  
 - dplyr 
 - data.table  
@@ -36,7 +36,7 @@ R 3.4.3
 The following scripts, stored in this repository, have been developed for the dataset.
 1. [main.py](https://github.com/asmitapoddar/nowplaying-RS-Music-Recommendation-FM/blob/master/main.py): The main file from which the other scripts are called.  
 2. [group.py](https://github.com/asmitapoddar/nowplaying-RS-Music-Recommendation-FM/blob/master/group.py): The test set is ordered according to the user_id. However, this is optional as the test set provided has already been ordered according to user_id. 
-3. [load.py](https://github.com/asmitapoddar/nowplaying-RS-Music-Recommendation-FM/blob/master/load.py): Shows how to load the dataset. You can enter the attributes with which you want to train the Factorization Machine here. (In this file, the attributes user_id + track_id + tempo have been used to train the FM).  
+3. [load.py](https://github.com/asmitapoddar/nowplaying-RS-Music-Recommendation-FM/blob/master/load.py): Shows how to load the dataset. You can enter the attributes with which you want to train the Factorization Machine here. (In this file, for example, the attributes user_id + track_id + tempo(context) have been used to train the FM for context-aware recommendation. You could also do next-song recommendation by using the attributes: user_id + track_id + previous_track_id + context to train the FM).  
 4. [runFM.py](https://github.com/asmitapoddar/nowplaying-RS-Music-Recommendation-FM/blob/master/runFM.py): Training of the Factorization Machine takes place and prediction.
 5. [calcMRR.py](https://github.com/asmitapoddar/nowplaying-RS-Music-Recommendation-FM/blob/master/calcMRR.py): Calculation of Mean Reciprocal Rank (MRR).
 
@@ -56,7 +56,7 @@ cd nowplaying-RS-Music-Reco-FM
 ```
 ###### 3. Installing the dependencies as have been mentioned above. 
 ###### 4. Creating the final train-test splits which can be used as input to the FM.  
-For example, to make next-song recommendation, create the final training and test sets using the follwing commands:
+For example, to make next-song recommendation, create the final training and test sets using the following commands:
 ```
 Rscript train_seq.py   
 Rscript test_seq.py   
