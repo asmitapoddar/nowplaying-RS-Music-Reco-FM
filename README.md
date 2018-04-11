@@ -14,13 +14,14 @@ Python 3.5
 R 3.4.3  
 
 ## Dependencies  
+### Python  
 - numpy    
 - sklearn    
 - pyfm  
 - pandas  
 - math  
 - time   
-    
+### R    
 - plyr  
 - dplyr 
 - data.table  
