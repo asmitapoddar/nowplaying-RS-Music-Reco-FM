@@ -3,7 +3,7 @@
 Here, you can find the codes for implementation of the experiments conducted on the #nowplaying-RS dataset.   
 We have used Factorization Machines[1] to perform the music recommendation experiments.  
 
-More details about the dataset and its contents can be found at http://dbis-nowplaying.uibk.ac.at/  
+More details about the dataset and its contents can be found at http://dbis-nowplaying.uibk.ac.at/nowplayingrs  
 
 ## Data
 
@@ -33,7 +33,7 @@ R 3.4.3
 3. [Sequence](https://github.com/asmitapoddar/nowplaying-RS-Music-Reco-FM/tree/master/Sequence): This folder contains the scripts [train_seq.r](https://github.com/asmitapoddar/nowplaying-RS-Music-Reco-FM/tree/master/Sequence/train_seq.r) and [test_seq.r](https://github.com/asmitapoddar/nowplaying-RS-Music-Reco-FM/tree/master/Sequence/test_seq.r) to create the traning and test set splits respectively for context-aware next-song recommendation.
 
 ## Code
-The following scripts, stored in this repository, have been developed for the dataset.
+The following scripts, stored in this repository, have been developed for implementing Factorization Machines for music recommendation using the dataset.
 1. [main.py](https://github.com/asmitapoddar/nowplaying-RS-Music-Recommendation-FM/blob/master/main.py): The main file from which the other scripts are called.  
 2. [group.py](https://github.com/asmitapoddar/nowplaying-RS-Music-Recommendation-FM/blob/master/group.py): The test set is ordered according to the user_id. However, this is optional as the test set provided has already been ordered according to user_id. 
 3. [load.py](https://github.com/asmitapoddar/nowplaying-RS-Music-Recommendation-FM/blob/master/load.py): Shows how to load the dataset. You can enter the attributes with which you want to train the Factorization Machine here. (In this file, for example, the attributes user_id + track_id + tempo(context) have been used to train the FM for context-aware recommendation. You could also do next-song recommendation by using the attributes: user_id + track_id + previous_track_id + context to train the FM).  
@@ -47,6 +47,7 @@ You can download the datasets and uncompress the archives using the following co
 ```
 wget http://dbis-nowplaying.uibk.ac.at/wp-content/uploads/nowplayingrs.zip
 wget http://dbis-nowplaying.uibk.ac.at/wp-content/uploads/nowplayingrs_train_test.zip
+unzip nowplayingrs.zip
 unzip nowplayingrs_train_test.zip
 ```
 ###### 2. Cloning the repoitory.
@@ -56,10 +57,10 @@ cd nowplaying-RS-Music-Reco-FM
 ```
 ###### 3. Installing the dependencies as have been mentioned above. 
 ###### 4. Creating the final train-test splits which can be used as input to the FM.  
-For example, to make next-song recommendation, create the final training and test sets using the following commands:
+For example, to make context-aware recommendation in the POP_RND setting, create the final training and test sets using the following commands:
 ```
-Rscript train_seq.py   
-Rscript test_seq.py   
+Rscript train_POP_RND.r   
+Rscript test_POP_RND.r   
 ```
 The required training and test sets would be created, which can be input to the FM by specifying the file names in [main.py](https://github.com/asmitapoddar/nowplaying-RS-Music-Recommendation-FM/blob/master/main.py)
 
