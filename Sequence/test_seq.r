@@ -50,12 +50,12 @@ for (i in 1:length(user))
 	
 	#Merging the positive and negative LEs for the particular user
 	peruser = Stack(part, neg)
-	#Merging the positive and negative LEs peruser to create the training set
+	#Merging the positive and negative LEs peruser to create the test set
 	temp = Stack(temp, peruser)
 	print(i)
 }
 
-#Discarding the temporary LE that was used at the beginning of creating the final training set
+#Discarding the temporary LE that was used at the beginning of creating the final test set
 test_all = temp[2:nrow(temp),]
-#Writing the final training set (to be input to FM) to file
+#Writing the final test set (to be input to FM) to file
 write.table(test_all, 'test_final_seq.txt', quote = FALSE, col.names= FALSE, row.names = FALSE, sep = '\t')
