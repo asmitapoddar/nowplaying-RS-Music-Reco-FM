@@ -3,7 +3,7 @@
 Here, you can find the codes for implementation of the experiments conducted on the #nowplaying-RS dataset.   
 We have used Factorization Machines[1] to perform the music recommendation experiments.  
 
-More details about the dataset and its contents can be found at http://dbis-nowplaying.uibk.ac.at/nowplayingrs  
+More details about the dataset and its contents can be found at http://dbis-nowplaying.uibk.ac.at/#nowplayingrs  
 
 ## Data
 
@@ -42,7 +42,7 @@ The following scripts, stored in this repository, have been developed for implem
 
 ## Usage
 
-###### 1. Downloading the dataset.
+##### 1. Downloading the dataset.
 You can download the datasets and uncompress the archives using the following commands:
 ```
 wget http://dbis-nowplaying.uibk.ac.at/wp-content/uploads/nowplayingrs.zip
