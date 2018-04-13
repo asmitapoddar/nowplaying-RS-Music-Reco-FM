@@ -50,13 +50,13 @@ wget http://dbis-nowplaying.uibk.ac.at/wp-content/uploads/nowplayingrs_train_tes
 unzip nowplayingrs.zip
 unzip nowplayingrs_train_test.zip
 ```
-###### 2. Cloning the repoitory.
+##### 2. Cloning the repoitory.
 ```
 git clone https://github.com/asmitapoddar/nowplaying-RS-Music-Reco-FM.git
 cd nowplaying-RS-Music-Reco-FM
 ```
-###### 3. Installing the dependencies as have been mentioned above. 
-###### 4. Creating the final train-test splits which can be used as input to the FM.  
+##### 3. Installing the dependencies as have been mentioned above. 
+##### 4. Creating the final train-test splits which can be used as input to the FM.  
 For example, to make context-aware recommendation in the POP_RND setting, create the final training and test sets using the following commands:
 ```
 Rscript train_POP_RND.r   
@@ -64,7 +64,7 @@ Rscript test_POP_RND.r
 ```
 The required training and test sets would be created, which can be input to the FM by specifying the file names in [main.py](https://github.com/asmitapoddar/nowplaying-RS-Music-Recommendation-FM/blob/master/main.py)
 
-###### 4. Running the code.
+##### 4. Running the code.
 ```
 python3.5 main.py
 ```
