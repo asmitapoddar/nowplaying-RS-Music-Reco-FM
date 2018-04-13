@@ -51,8 +51,8 @@ for (i in 1:length(user))
 #Discarding the temporary LE that was used at the beginning of creating the training set
 temp = temp[2:nrow(temp),]
 
-#Merging the positive and negative LEs create the final training set
+#Merging the positive and negative LEs to create the final training set
 train_all = Stack(train, temp)
 #Writing the final training set (to be input to FM) to file
-write.table(train_all, 'train_final_context_POP_RND.txt', quote = FALSE, col.names= FALSE, row.names = FALSE, sep = '\t')
+write.table(train_all, 'train_final_POP_RND.txt', quote = FALSE, col.names= FALSE, row.names = FALSE, sep = '\t')
 

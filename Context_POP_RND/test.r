@@ -49,14 +49,14 @@ for (i in 1:length(user))
 	print(i)
 }
 
-#Discarding the temporary LE that was used at the beginning of creating the training set
+#Discarding the temporary LE that was used at the beginning of creating the test set
 temp = temp[2:nrow(temp),]
 
-#Merging the positive and negative LEs create the final test set
+#Merging the positive and negative LEs to create the final test set
 test_all = Stack(test, temp)
 
 #Writing the final test set (to be input to FM) to file
-write.table(test_all, 'test_final_context_POP_RND.txt', quote = FALSE, col.names= FALSE, row.names = FALSE, sep = '\t')
+write.table(test_all, 'test_final_POP_RND.txt', quote = FALSE, col.names= FALSE, row.names = FALSE, sep = '\t')
 
 
 
