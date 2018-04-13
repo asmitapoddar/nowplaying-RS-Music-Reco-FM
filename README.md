@@ -50,12 +50,12 @@ wget http://dbis-nowplaying.uibk.ac.at/wp-content/uploads/nowplayingrs_train_tes
 unzip nowplayingrs.zip
 unzip nowplayingrs_train_test.zip
 ```
-##### 2. Cloning the repoitory.
+##### 2. Cloning the repository.
 ```
 git clone https://github.com/asmitapoddar/nowplaying-RS-Music-Reco-FM.git
 cd nowplaying-RS-Music-Reco-FM
 ```
-##### 3. Installing the dependencies as have been mentioned above. 
+##### 3. Installing the dependencies as have been mentioned above.  
 ##### 4. Creating the final train-test splits which can be used as input to the FM.  
 For example, to make context-aware recommendation in the POP_RND setting, create the final training and test sets using the following commands:
 ```
