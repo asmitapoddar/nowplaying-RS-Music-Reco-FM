@@ -19,8 +19,8 @@ import calcMRR
 
 # Loading the training and test datasets
 print('Loading data...')
-(train_data, y_train, train_users, train_items)=load.loadData("train_100_9000.txt")
-(test_data, y_test, test_uers, test_items) = load.loadData("test_100_10K_sorted.txt")
+(train_data, y_train, train_users, train_items)=load.loadData("train_final_POP_RND.txt")
+(test_data, y_test, test_uers, test_items) = load.loadData("test_final_POP_RND.txt")
 
 # Running Factorization Machine
 print('Running FM...')
