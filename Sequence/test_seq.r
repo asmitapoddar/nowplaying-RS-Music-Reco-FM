@@ -35,7 +35,7 @@ for (i in 1:length(user))
 	part$current_track = curr_track
 	part$previous_track = prev_track
 	
-	#Creating 9 negative samples for each positive sample for thee 'user_id'
+	#Creating 9 negative samples for each positive sample of the 'user_id'
 	neg = do.call("rbind", replicate(9, part, simplify = FALSE))
 	
 	#Finding tracks in the test set which the user has not listened to in both the training  and test sets
