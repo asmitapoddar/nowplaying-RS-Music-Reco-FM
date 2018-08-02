@@ -6,7 +6,7 @@ library(Stack)
 test = read.csv('/Train-Test Splits/Context/test.csv', header = TRUE)
 
 #Order LEs by 'user_id'
-setDT(tes)[,freq := .N, by = "user_id"]
+setDT(test)[,freq := .N, by = "user_id"]
 test = test[order(freq, decreasing = T),]
 
 #Get the unique user_ids and their frequencies
