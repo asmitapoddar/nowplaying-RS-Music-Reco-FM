@@ -38,8 +38,8 @@ for (i in 1:length(user))
 	notlisten_df = Stack(notlisten_df, notlisten_df)
 	
 	#Negative LEs are given a rating 0
-	ud$rating = 0
-	ud$user_id = user[i]
+	notlisten_df$rating = 0
+	notlisten_df$user_id = user[i]
 	
 	#Creating 9 negative samples for each positive sample of the 'user_id'
 	partdf = head(notlisten_df,(frequen[i]*9))
