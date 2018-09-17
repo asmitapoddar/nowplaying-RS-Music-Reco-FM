@@ -3,13 +3,13 @@
 Here, you can find the codes for implementation of the experiments conducted on the #nowplaying-RS dataset.   
 We have used Factorization Machines[1] to perform the music recommendation experiments.  
 
-More details about the dataset and its contents can be found at http://dbis-nowplaying.uibk.ac.at/#nowplayingrs  
-More about the experiments can be found in our [paper](http://mac.citi.sinica.edu.tw/~yang/pub/poddar18smc.pdf). If you use this code in your research, please cite us:
+The #nowplaying-RS dataset can be downloaded from http://dbis-nowplaying.uibk.ac.at/#nowplayingrs  
+More details about the dataset and experiments can be found in our [paper](http://mac.citi.sinica.edu.tw/~yang/pub/poddar18smc.pdf):
 ```
 @inproceedings{smc18,
-title = {#nowplaying-RS: A New Benchmark Dataset for Building Context-Aware Music Recommender Systems },
-author = {Asmita Poddar and Eva Zangerle and Yi-Hsuan Yang },
-url = {https://www.evazangerle.at/wp-content/uploads/2018/07/poddar18smc.pdf},
+title = {#nowplaying-RS: A New Benchmark Dataset for Building Context-Aware Music Recommender Systems},
+author = {Asmita Poddar and Eva Zangerle and Yi-Hsuan Yang},
+url = {http://mac.citi.sinica.edu.tw/~yang/pub/poddar18smc.pdf},
 year = {2018},
 date = {2018-07-04},
 booktitle = {Proceedings of the 15th Sound & Music Computing Conference},
