@@ -1,9 +1,9 @@
 # #nowplaying-RS: A Benchmark Dataset for Context Aware Music Recommendation
 
-Here, you can find the codes for implementation of the experiments conducted on the #nowplaying-RS dataset.   
-We have used Factorization Machines[1] to perform the music recommendation experiments.  
+Music recommender systems can offer users personalized and contextualized recommendation and are therefore important for music information retrieval. An increasing number of datasets have been compiled to facilitate research on different topics, such as content-based, context-based or next-song recommendation. However, these topics are usually addressed separately using different datasets, due to the lack of a unified dataset that contains a large variety of feature types such as item features, user contexts, and timestamps. To address this issue, we propose a large-scale benchmark dataset called #nowplaying-RS, which contains 11.6 million music listening events (LEs) of 139K users and 346K tracks collected from Twitter. The dataset comes with a rich set of item content features and user context features, and the timestamps of the LEs. Moreover, some of the user context features imply the cultural origin of the users, and some others—like hashtags—give clues to the emotional state of a user underlying an LE. In this paper, we provide some statistics to give insight into the dataset, and some directions in which the dataset can be used for making music recommendation. We also provide standardized training and test sets for experimentation, and some baseline results obtained by using factorization machines[1].  
 
-The #nowplaying-RS dataset can be downloaded from https://zenodo.org/record/3248543    
+Here, you can find the codes for implementation of the experiments conducted on the #nowplaying-RS dataset.    
+    
 More details about the dataset and experiments can be found in our [paper](http://mac.citi.sinica.edu.tw/~yang/pub/poddar18smc.pdf):
 ```
 @inproceedings{smc18,
@@ -21,6 +21,7 @@ tppubtype = {inproceedings}
 
 ## Data
 
+The #nowplaying-RS dataset can be downloaded from https://zenodo.org/record/3248543.  
 Since the #nowplaying-RS is an implicit dataset, the train-test splits provided contain Listening Events (LEs) with positive ratings. However, for model training and evaluation of Factorization Machines, negative examples are needed. Here, we provide the scripts that have been used to creating the final training and test sets that can be input to the FM.
 
 ## Environment
